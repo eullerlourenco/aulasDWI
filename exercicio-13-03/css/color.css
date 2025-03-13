@@ -1,0 +1,35 @@
+:root {
+    --transition-duration: 0.3s;
+
+    --primary-color: #00026e;
+    --secondary-color: #f7de00;
+
+    --body-bg: #f5f5f5;
+    --header-bg: #ffffff;
+    --card-bg: #ffffff;
+    --btn-primary-bg: var(--primary-color);
+    --footer-bg: #fff;
+    
+    --title-color: var(--primary-color);
+    --text-color: rgb(37, 37, 37);
+    --btn-primary-color: var(--header-bg);
+    --subtle-text-color: rgb(87, 86, 105);
+    
+    --border-color: rgb(209, 205, 224);
+    
+    body.dark-mode {
+        --primary-color: #00026e;
+        --secondary-color: #f7de00;
+        
+        --body-bg: #1e1c25;
+        --header-bg: rgb(44, 44, 59);
+        --footer-bg: rgb(44, 44, 59);
+        
+        --title-color: var(--secondary-color);
+        --text-color: rgb(245, 245, 245);
+        --btn-primary-color: var(var(--text-color));
+        --subtle-text-color: rgb(155, 153, 180);
+        
+        --border-color: rgb(131, 126, 150);
+    }
+}

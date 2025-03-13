@@ -1,0 +1,84 @@
+
+body {
+    background-color: var(--body-bg);
+}
+
+header nav {
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0;
+    background-color: var(--header-bg);
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    color: var(--text-color);
+}
+
+header nav li:hover {
+    transition-duration: var(--transition-duration);
+    color: var(--secondary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    color: var(--btn-primary-color);
+    border-radius: 12px;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    transition-duration: var(--transition-duration);
+    background-color: var(--secondary-color);
+}
+
+
+.container {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card {
+    padding: 1rem;
+    background-color: var(--header-bg);
+    border-radius: 16px;
+    flex-grow: grow;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.1);
+}
+
+.card .title {
+    font-size: 26px;
+    color: var(--title-color);
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 10px;
+}
+
+.card .text {
+    color: var(--subtle-text-color);
+}
+
+footer {
+    background-color: var(--footer-bg);
+    bottom: 0;
+    position: fixed;
+    padding: 2rem;
+    height: 100px;
+    width: 100%;
+}
+
+footer p {
+    color: var(--subtle-text-color);
+    text-align: center;
+}
