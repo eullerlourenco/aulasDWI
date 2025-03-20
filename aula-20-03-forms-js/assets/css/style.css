@@ -1,0 +1,113 @@
+body {
+  margin: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.remover {
+  margin-left: 10px;
+  background-color: #ff5c5c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.revoer:hover {
+  opacity: 0.8;
+}
+
+.formCalculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.btnCalculadora {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ff5c5c;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    outline: none;
+    border: none;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.numeroCalculadora {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 25%;
+    text-align: center;
+    background-color: #d6d6d6;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    outline: none;
+    border: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.displayCalculadora {
+    background-color: rgb(119, 119, 119);
+    border-radius: 8px;
+    height: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    width: 90%;
+}
